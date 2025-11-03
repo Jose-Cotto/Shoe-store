@@ -1,5 +1,7 @@
 body {
 	font-family: sans-serif;
+	/* added line height after the fact. It gets inherited and gives text space */
+	line-height: 1.4;
 }
 
 .article {
@@ -18,8 +20,9 @@ body {
 }
 
 .shipping {
-	color: #979797;
+	color: #777;
 	text-transform: uppercase;
+	font-size: 12px;
 	font-weight: bold;
 }
 
@@ -36,6 +39,7 @@ body {
 
 .product-details {
 	text-transform: uppercase;
+	font-size: 16px;
 }
 
 .detail-list {
@@ -47,10 +51,12 @@ body {
 	text-transform: uppercase;
 	background-color: #000;
 	color: #fff;
+	border: none;
 }
 
 .btn:hover {
 	background-color: #fff;
 	color: #000;
 	border: none;
+	cursor: pointer;
 }
