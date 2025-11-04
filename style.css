@@ -1,3 +1,9 @@
+/* CHALLENGE TWO */
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: sans-serif;
 	/* added line height after the fact. It gets inherited and gives text space */
@@ -5,13 +11,19 @@ body {
 }
 
 .article {
+	width: 825px;
+	/* NEW */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
 	border: 5px solid #000;
 }
-
 .main-header {
 	background-color: #f7f7f7;
 	text-align: center;
 	text-transform: uppercase;
+	/* NEW */
+	padding: 20px;
 }
 
 .price {
@@ -24,6 +36,8 @@ body {
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
+	/* NEW */
+	margin-bottom: 20px;
 }
 
 .more-info:link,
@@ -40,13 +54,29 @@ body {
 .product-details {
 	text-transform: uppercase;
 	font-size: 16px;
+	/* NEW */
+	margin-top: 30px;
+	margin-bottom: 15px;
 }
 
 .detail-list {
 	list-style: square;
+	/* NEW */
+	margin-bottom: 10px;
 }
-
+/* NEW */
+li {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+/* NEW */
+li:last-child {
+	margin-bottom: 0;
+}
 .btn {
+	/* NEW */
+	width: 100%;
+	padding: 20px;
 	font-size: 20px;
 	text-transform: uppercase;
 	background-color: #000;
@@ -59,4 +89,6 @@ body {
 	color: #000;
 	border: none;
 	cursor: pointer;
+	/* NEW */
+	border-top: 5px solid #000;
 }
