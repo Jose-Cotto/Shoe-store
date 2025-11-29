@@ -1,5 +1,6 @@
 /* CHALLENGE TWO */
 * {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
@@ -16,7 +17,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 60px;
-	border: 5px solid #000;
+	border: 4px solid #000;
 }
 .main-header {
 	background-color: #f7f7f7;
@@ -28,9 +29,10 @@ body {
 }
 
 .main-header::before {
-	content: "SALE";
-	font-size: 16px;
-	font-weight: 700;
+	content: "sale";
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
 	color: white;
 	background-color: #ff0101;
 	padding: 10px 20px;
@@ -69,7 +71,7 @@ body {
 	text-transform: uppercase;
 	font-size: 16px;
 	/* NEW */
-	margin-top: 25px;
+	margin-top: 20px;
 	margin-bottom: 15px;
 }
 
@@ -140,4 +142,35 @@ li:last-child {
 
 .clr-brown {
 	background-color: #412b0c;
+}
+
+.price {
+	float: left;
+}
+
+.shipping {
+	float: right;
+	margin-top: 8px;
+}
+
+.description {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.shipping-info-cont {
+	width: 243px;
+	float: left;
+	margin-right: 40px;
+	padding-top: 20px;
+}
+
+.product-details-cont {
+	width: 243px;
+	float: left;
+}
+
+.product-img {
+	float: left;
+	margin-right: 40px;
 }
