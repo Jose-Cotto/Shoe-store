@@ -24,6 +24,20 @@ body {
 	text-transform: uppercase;
 	/* NEW */
 	padding: 20px;
+	position: relative;
+}
+
+.main-header::before {
+	content: "SALE";
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	background-color: #ff0101;
+	padding: 10px 20px;
+	position: absolute;
+	top: -20px;
+	left: -40px;
+	letter-spacing: 5px;
 }
 
 .price {
@@ -55,7 +69,7 @@ body {
 	text-transform: uppercase;
 	font-size: 16px;
 	/* NEW */
-	margin-top: 30px;
+	margin-top: 25px;
 	margin-bottom: 15px;
 }
 
@@ -91,4 +105,39 @@ li:last-child {
 	cursor: pointer;
 	/* NEW */
 	border-top: 5px solid #000;
+}
+
+.clr-cont {
+	margin-top: 20px;
+}
+
+.clr-box {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.clr-black {
+	background-color: #000;
+}
+
+.clr-blue {
+	background-color: #002fff;
+}
+
+.clr-red {
+	background-color: #ff0101;
+}
+
+.clr-yellow {
+	background-color: #ffee00;
+}
+
+.clr-green {
+	background-color: #00ff22;
+}
+
+.clr-brown {
+	background-color: #412b0c;
 }
