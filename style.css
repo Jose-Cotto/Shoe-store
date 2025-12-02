@@ -154,7 +154,9 @@ li:last-child {
 	justify-content: space-between;
 	margin-bottom: 20px;
 }
-.row {
+
+/* FLEXBOX EXAMPLE */
+/* .row {
 	display: flex;
 	gap: 40px;
 }
@@ -167,4 +169,20 @@ li:last-child {
 .product-details-cont {
 	margin-top: 20px;
 	flex: 1;
+} */
+
+/* CSS GRID EXAMPLE */
+.article {
+	display: grid;
+	grid-template-columns: 250px 1fr 1fr;
+	align-items: center;
+	column-gap: 40px;
+}
+
+.main-header {
+	grid-column: 1/-1;
+}
+
+.btn {
+	grid-column: 1/-1;
 }
